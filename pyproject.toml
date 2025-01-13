@@ -1,0 +1,5 @@
+[project]
+name = "lsst-obs-fiberspectrograph"
+
+[project.entry-points.astro_metadata_translators]
+obs_fiberspectrograph = "lsst.obs.fiberspectrograph.translator:_register_translators"
